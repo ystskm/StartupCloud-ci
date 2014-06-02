@@ -1,0 +1,22 @@
+{
+  "name": "StartupCloud-ci",
+  "version": "0.0.1",
+  "author": {
+    "name": "Yoshitaka Sakamoto",
+    "url": "http://github.com/ystskm",
+    "email": "sakamoto@liberty-technology.biz"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "description": "CI for StartupCloud",
+  "devDependencies": {
+    "nodeunit": "*",
+    "nodeunit-ci": "*",
+    "time-calc": "*"
+  },
+  "main": "index.js",
+  "repository": {},
+  "scripts": {
+    "test": "node test/_runner.js"
+  }
+}
